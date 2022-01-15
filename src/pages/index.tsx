@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../../styles/Home.module.css';
 
 type HomeProps = {
-  title: string
-}
+  title: string;
+};
 
 export default function Home({ title = 'Create React Advanced' }: HomeProps) {
   return (
@@ -69,5 +69,5 @@ export default function Home({ title = 'Create React Advanced' }: HomeProps) {
         </a>
       </footer>
     </div>
-  )
+  );
 }
